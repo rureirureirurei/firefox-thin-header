@@ -1,0 +1,58 @@
+
+/* Blocks all the icons in the header - use shortcuts instead! */
+#tracking-protection-icon-container,
+#tracking-protection-icon-box,
+#alltabs-button,
+#identity-icon-box,
+#reload-button,
+#forward-button,
+#back-button,
+#star-button-box,
+#unified-extensions-button,
+#downloads-button,
+#PanelUI-menu-button,
+#stop-reload-button,
+#urlbar-go-button,
+#customizableui-special-spring1,
+#customizableui-special-spring2,
+#shopping-sidebar-button,
+#urlbar-zoom-button
+{
+  display: none !important;
+}
+
+.tab-background
+{
+  min-height: 0 !important;
+}
+
+*|*:root {
+  --tab-min-height:           30px    !important;
+  --tab-min-width:            60px    !important;
+  --urlbar-container-height:  22px !important;
+}
+ 
+#tabbrowser-tabs,
+#tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+.tabbrowser-tabs .tabbrowser-tab 
+{
+  min-height: var(--tab-min-height) !important;
+  max-height: var(--tab-min-height) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -moz-box-align: none !important;
+}
+
+#urlbar-results,
+#urlbar-background,
+.search-one-offs
+{
+  display: none !important;
+}
+
+#urlbar-container {
+  margin-top: -2px !important;
+  --urlbar-container-height:  20px !important;
+  min-height: var(--urlbar-container-height) !important;
+  max-height: var(--urlbar-container-height) !important;
+}
