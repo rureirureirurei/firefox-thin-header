@@ -37,6 +37,8 @@ To apply these modifications, follow these steps:
 5. **Restart Firefox:**
    - Restart the browser to see the changes take effect.
 
+**The chrome folder has nothing to do with Google Chrome—it's just ambiguous naming.*
+
 ---
 
 ## Author
