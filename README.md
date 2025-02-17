@@ -1,6 +1,6 @@
 # Firefox Thin Header
 
-Custom modifications to Firefox that give the header a cleaner, QT-browser-like look.
+Custom modifications to Firefox that give the header a cleaner, Qutebrowser-like look.
 
 ![Screenshot 1](screen1.png)
 ![Screenshot 2](screen2.png)
@@ -11,7 +11,7 @@ Custom modifications to Firefox that give the header a cleaner, QT-browser-like 
 
 - Hide default header icons.
 - Reduce the header's height.
-- More minimalistic, QT-inspired interface
+- More minimalistic, Qute-inspired interface
 
 ---
 
